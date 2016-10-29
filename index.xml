@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrew Emerson</title>
+    <link>https://aoemerson.github.io/index.xml</link>
+    <description>Recent content on Andrew Emerson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
+    <lastBuildDate>Fri, 28 Oct 2016 12:38:37 +0100</lastBuildDate>
+    <atom:link href="https://aoemerson.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome to my blog</title>
+      <link>https://aoemerson.github.io/post/my-first-post/</link>
+      <pubDate>Fri, 28 Oct 2016 12:38:37 +0100</pubDate>
+      
+      <guid>https://aoemerson.github.io/post/my-first-post/</guid>
+      <description>&lt;p&gt;Welcome to my website but primarily a blog, mostly covering Android development, tech trends with the occasional LOL or other things that inspire me.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m still working on finishing the site so there isn&amp;rsquo;t much of interest for now but you could always subscribe to my &lt;a href=&#34;https://aoemerson.github.io/index.html&#34;&gt;RSS feed&lt;/a&gt; or follow &lt;a href=&#34;https://www.twitter.com/aoemerson&#34;&gt;me on twitter&lt;/a&gt; if you&amp;rsquo;re at all interested in seeing what I have to say.&lt;/p&gt;
+
+&lt;p&gt;In the mean time, until I have posted more content, here is one of the most mesmerising gifs of all time:&lt;/p&gt;
+
+&lt;div align=&#34;center&#34;&gt;
+&lt;img src=&#34;https://aoemerson.github.io/img/pasta.gif&#34;/&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://aoemerson.github.io/about/</link>
+      <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://aoemerson.github.io/about/</guid>
+      <description>&lt;p&gt;Come back soon for a bit of semi-auto-biographical meandering from me.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
