@@ -532,8 +532,10 @@ img[align=right] {
     }
 }
 article,
-.comments,
+ .comments,
 .feature-image .post-content,
+.feature-image .share,
+.feature-image .comments,
 .call-out,
 .posts .post-teaser,
 .site-footer {
@@ -543,10 +545,12 @@ article,
     article,
     .comments,
     .feature-image .post-content,
+    .feature-image .share,
+    .feature-image .comments,
     .call-out,
     .posts .post-teaser,
     .site-footer {
-        padding: 7.5% 12.5%
+        padding: 7.5% 5%
     }
 
 
@@ -558,11 +562,12 @@ article,
 
 }
 
-article,
+/*article,
 .feature-image .share {
     padding-right: 20%;
     padding-left: 20%;
 }
+*/
 
 
 article a:hover,
@@ -735,6 +740,32 @@ section.share {
   text-align: right;
 }
 
+@media (max-width: 1000px) {
+
+    section.share .fa-2x {
+        font-size: 1.5em
+    }
+}
+
+section.comments {
+  width: 100%;
+  text-align: left;
+  text-transform: none;
+}
+section.comments {
+  margin-top: 1em;
+  border-bottom: 1px solid #ecf0f1;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: right;
+}
+
+section.comments iframe {
+  padding: 0;
+  margin: 0;
+}
 
 section.share p {
   padding: 0;
