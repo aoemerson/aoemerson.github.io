@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About-rsses on Andrew Emerson</title>
-    <link>https://aoemerson.github.io/about/index.xml</link>
+    <link>http://andrewemerson.io/about/index.xml</link>
     <description>Recent content in About-rsses on Andrew Emerson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
     <lastBuildDate>Fri, 28 Oct 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://aoemerson.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://andrewemerson.io/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>https://aoemerson.github.io/about/</link>
+      <link>http://andrewemerson.io/about/</link>
       <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://aoemerson.github.io/about/</guid>
+      <guid>http://andrewemerson.io/about/</guid>
       <description>&lt;p&gt;Come back soon for a bit of semi-auto-biographical meandering from me.&lt;/p&gt;
 </description>
     </item>
