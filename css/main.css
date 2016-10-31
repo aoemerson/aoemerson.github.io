@@ -632,7 +632,7 @@ header .meta {
 .call-out {
     display: inline-block;
     width: 100%;
-    background-color: #F98752;
+   /* background-color: #F98752; */
     background-size: cover;
     font-size: 1.2em;
     text-align: center;
