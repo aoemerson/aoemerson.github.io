@@ -87,7 +87,9 @@ svg:not(:root) {
     overflow: hidden
 }
 figure {
-    margin: 1em 40px
+    margin: 1em 40px;
+    text-align: center;
+    font-style: italic;
 }
 hr {
     -moz-box-sizing: content-box;
@@ -439,10 +441,55 @@ h3 {
 h4 {
     font-size: 1.15em
 }
-blockquote {
-    border-left: 2px solid;
-    padding: 1em 1em
+
+blockquote{
+  display: ;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-size: 1.5em;
+  line-height: 1.2;
+  color: #666;
+  text-align: left;
+  
+  /*Borders - (Optional)*/
+  border-left: 5px solid #1ABC9C;
+  border-right: 0px solid #1ABC9C;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
 }
+
+blockquote strong {
+    font-style: italic;
+    font-weight: normal;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
 blockquote p:last-child,
 footer p:last-child {
     margin-bottom: 0
@@ -493,7 +540,8 @@ dl,
 }
 ol,
 ul {
-    list-style-position: inside
+    list-style-position: outside;
+    padding-left: 1.5em;
 }
 hr {
     border: 0;
@@ -515,7 +563,10 @@ img,
 embed,
 object,
 video {
-    max-width: 100%
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 img[align=left] {
     margin-right: 3%
@@ -539,7 +590,7 @@ article,
 .call-out,
 .posts .post-teaser,
 .site-footer {
-    padding: 5% 20%
+    padding: 0% 20%
 }
 @media (max-width: 1000px) {
     article,
@@ -575,6 +626,11 @@ article a:hover,
     text-decoration: underline;
     color: #117964
 }
+
+.site-header a:hover {
+    color: #1ABC9C
+}
+
 .button {
     border-radius: 0.3em;
     border: 1px solid;
@@ -607,6 +663,8 @@ article .footnotes {
 header h1 {
     margin: 0
 }
+
+
 header .meta {
     color: rgba(56, 56, 56, 0.5);
     font-size: 0.9em;
@@ -627,7 +685,13 @@ header .meta {
     padding: 8% 20%
 }
 .feature-image header .meta {
-    color: rgba(255, 255, 255, 0.7)
+    color: rgba(255, 255, 255, 1)
+}
+
+.feature-image header .title-area {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+
 }
 .call-out {
     display: inline-block;
@@ -732,11 +796,9 @@ section.share {
   text-transform: none;
 }
 section.share {
-  margin-top: 1em;
+ 
   border-top: 1px solid #ecf0f1;
   border-bottom: 1px solid #ecf0f1;
-  padding-top: 1em;
-  padding-bottom: 1em;
   text-align: right;
 }
 
