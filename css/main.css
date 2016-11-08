@@ -391,6 +391,7 @@ th {
 .il {
     color: #099
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -440,6 +441,23 @@ h3 {
 }
 h4 {
     font-size: 1.15em
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 2.2em
+    }
+    
+
+    .header .meta {
+        font-size: 0.8em;
+    }
+}
+
+.standfirst {
+    font-style: italic;
+    color: #666;
+    font-size: 1.2em;
 }
 
 blockquote{
@@ -581,28 +599,32 @@ img[align=right] {
     .site-header {
         padding: 3% 3%
     }
-}
+}  
+
 article,
- .comments,
 .feature-image .post-content,
-.feature-image .share,
-.feature-image .comments,
 .call-out,
-.posts .post-teaser,
 .site-footer {
-    padding: 0% 20%
+    padding: 5% 20%
 }
+
+
+.posts .post-teaser {
+    padding: 2.5% 20%;
+}
+
 @media (max-width: 1000px) {
     article,
-    .comments,
     .feature-image .post-content,
-    .feature-image .share,
-    .feature-image .comments,
     .call-out,
-    .posts .post-teaser,
     .site-footer {
         padding: 7.5% 5%
     }
+
+    .posts .post-teaser {
+        padding: 2.5% 5%;
+    }
+
 
 
 .post-content .img {
@@ -672,6 +694,14 @@ header .meta {
     margin: 0;
     text-transform: uppercase
 }
+
+header .imageattrib {
+    color: rgba(56, 56, 56, 0.5);
+    font-size: 0.9em;
+    font-weight: 10%;
+    margin: 0;
+}
+
 .feature-image {
     padding: 0%
 }
@@ -684,9 +714,19 @@ header .meta {
     margin-bottom: 0;
     padding: 8% 20%
 }
-.feature-image header .meta {
+
+@media (max-width: 1000px) {
+    .feature-image header {
+        padding: 8% 3.5%;
+
+    }
+}
+
+.feature-image header .meta,
+.feature-image header .imageattrib {
     color: rgba(255, 255, 255, 1)
 }
+
 
 .feature-image header .title-area {
     background-color: rgba(0,0,0,0.5);
@@ -790,34 +830,43 @@ td.code {
     width: 95%;
 }
 
-section.share {
-  width: 100%;
-  text-align: left;
-  text-transform: none;
-}
-section.share {
- 
+
+.share {
+
+  margin-top: 2.5%;
   border-top: 1px solid #ecf0f1;
   border-bottom: 1px solid #ecf0f1;
   text-align: right;
+  padding: 5px 0px;
+}
+
+.feature-image .share,
+.feature-image .comments {
+    padding-left: 20%;
+    padding-right: 20%;
+
 }
 
 @media (max-width: 1000px) {
 
-    section.share .fa-2x {
+    .share .fa-2x {
         font-size: 1.5em
     }
+
+    
+
+    .feature-image .share,
+    .feature-image .comments {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+
+}
 }
 
+
 section.comments {
-  width: 100%;
-  text-align: left;
-  text-transform: none;
-}
-section.comments {
-  margin-top: 1em;
+  margin-top: 2.5%;
   border-bottom: 1px solid #ecf0f1;
-  padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 0;
   padding-right: 0;

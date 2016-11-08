@@ -179,12 +179,34 @@
     </item>
     
     <item>
-      <title>About</title>
+      <title>About me</title>
       <link>http://andrewemerson.io/about/</link>
       <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://andrewemerson.io/about/</guid>
-      <description>&lt;p&gt;Come back soon for a bit of semi-auto-biographical meandering from me.&lt;/p&gt;
+      <description>
+
+&lt;h3 id=&#34;working-on-it&#34;&gt;Working on it&lt;/h3&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://andrewemerson.io/img/about/kanban.jpg&#34; alt=&#34;Kanban board showing post-it notes in the separate columns of &amp;#34;To-do&amp;#34;, &amp;#34;Doing&amp;#34; and &amp;#34;Done&amp;#34;&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Source:
+        &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=19121595&#34;&gt; 
+            Jeff.lasovski [Own work, CC BY-SA 3.0]
+        &lt;/a&gt; 
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I&amp;rsquo;m still working on a brief run-down of what it is to be Andrew - come back soon. In the meantime, find me on my social media links at the top of the page.&lt;/p&gt;
 </description>
     </item>
     
