@@ -20,7 +20,7 @@
             <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
             
             <guid>http://andrewemerson.io/about/</guid>
-            <description>
+            <description>![CDATA[
 
 &lt;h2 id=&#34;hi-i-m-andrew&#34;&gt;Hi, I&amp;rsquo;m Andrew&lt;/h2&gt;
 
@@ -47,7 +47,7 @@
 &lt;p&gt;I love to get out shooting when I can. Here&amp;rsquo;s a sample of some of the stuff I&amp;rsquo;m most proud of:&lt;/p&gt;
 
 &lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 60%; overflow: auto; -webkit-overflow-scrolling:touch;&#34;&gt;&lt;iframe style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; src=&#34;https://flickrembed.com/cms_embed.php?source=flickr&amp;layout=responsive&amp;input=www.flickr.com/photos/andrew_emerson/&amp;sort=0&amp;by=user&amp;theme=tiles&amp;scale=fit&amp;skin=alexis&amp;id=582637fc9cd0f&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;small style=&#34;display: block; text-align: center; margin: 0 auto;&#34;&gt;Created with &lt;a href=&#34;https://flickrembed.com&#34;&gt;flickr embed&lt;/a&gt;.&lt;/small&gt;&lt;!-- We would appreciate if you leave a backlink --&gt;&lt;/p&gt;
-</description>
+]]</description>
         </item>
         
     </channel>

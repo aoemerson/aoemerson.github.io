@@ -20,7 +20,7 @@
             <pubDate>Wed, 02 Nov 2016 23:31:09 +0000</pubDate>
             
             <guid>http://andrewemerson.io/post/starting-my-career-change/</guid>
-            <description><img href="/img/starting-my-career-change/header.jpg"/>
+            <description>![CDATA[<img href="/img/starting-my-career-change/header.jpg"/>
 
 &lt;h3 id=&#34;synergise-me&#34;&gt;Synergise me&lt;/h3&gt;
 
@@ -161,7 +161,7 @@
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:techcreative&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description>
+]]</description>
         </item>
         
         <item>
@@ -170,7 +170,7 @@
             <pubDate>Fri, 28 Oct 2016 12:38:37 +0100</pubDate>
             
             <guid>http://andrewemerson.io/post/my-first-post/</guid>
-            <description>&lt;p&gt;Welcome to my website but primarily a blog, mostly covering Android development, tech trends with the occasional LOL or other things that inspire me.&lt;/p&gt;
+            <description>![CDATA[&lt;p&gt;Welcome to my website but primarily a blog, mostly covering Android development, tech trends with the occasional LOL or other things that inspire me.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m still working on finishing the site so there isn&amp;rsquo;t much of interest for now but you could always subscribe to my &lt;a href=&#34;http://andrewemerson.io/index.xml&#34;&gt;RSS feed&lt;/a&gt; or follow &lt;a href=&#34;https://www.twitter.com/aoemerson&#34;&gt;me on twitter&lt;/a&gt; if you&amp;rsquo;re at all interested in seeing what I have to say.&lt;/p&gt;
 
@@ -179,7 +179,7 @@
 &lt;div align=&#34;center&#34;&gt;
 &lt;img src=&#34;http://andrewemerson.io/img/pasta.gif&#34;/&gt;
 &lt;/div&gt;
-</description>
+]]</description>
         </item>
         
     </channel>
