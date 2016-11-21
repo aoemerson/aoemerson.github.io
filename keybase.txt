@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/aoemerson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://andrewemerson.io
+  * I am aoemerson (https://keybase.io/aoemerson) on keybase.
+  * I have a public key with fingerprint 5B99 8E94 DF82 30DF 7D18  9A98 6FE7 9456 D21B 1FF2
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a4fbaf9442ca2b770752b7eaa2efd7fc70195b1ef51e5fe5aa31273cfd878f2d0a",
+            "fingerprint": "5b998e94df8230df7d189a986fe79456d21b1ff2",
+            "host": "keybase.io",
+            "key_id": "6fe79456d21b1ff2",
+            "kid": "0101a4fbaf9442ca2b770752b7eaa2efd7fc70195b1ef51e5fe5aa31273cfd878f2d0a",
+            "uid": "62c16e889272ddf25024921e27c23a19",
+            "username": "aoemerson"
+        },
+        "service": {
+            "hostname": "andrewemerson.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1479740084,
+    "expire_in": 157680000,
+    "prev": "0c8dc814fda157f6f40fba6e7a3c51fe9918dee47513054835909b09da75fbc7",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUl1IFFEUXtdSs6wliELFaiiCMpk7O7N37tZDiQ9BUMSahZXLnbn3roM6s86M
+riKWUEaWRGA9+FC4FRT1oBWBJZWIEqaU9mchFREkVhSW4EOE3bF867H7crjnfD/n
+HM6ZrFSfP8WaOFvyNGf195ShSc23P5jZ1yBoFqkXwg1CBZ0LtJJQx41WGEQICyIQ
+AZaZhhmSZUnHkgahCBUeKMYSZQQyHYoAKRqgTAFUYVTBOAgkGNQZUaHKJCJiIV9g
+hhmjdtw2TJfLKhpCKkUyYaoUFAmDBKgIIzXEKESyEiIS0ABjEieWW47H4M1p2KEF
+hsVz/BOda+8f+P/cd80fH0kHIaqqSIISIUxSRElGEqAS1KUgBsgDOtQ2cRXlaGzR
+Kmo7lik05gs8XWvo1NusN8o8xCQ2TfyF/RkqbluupVuVvFruuvGwR3br4x46QbXo
+X52oZpiE75ITajnZ4CZhwJG6a3jCQIYIyqKoyvkCrYsbNo0aHkKBIVXkz7Ohtd6C
+dPUg0VUgM4J5lYWYLPJ1hSjEQV0BjCIEVEKpDBUQFBVZDSpIRJqICIYK03QoeKNV
+m5YQ5lYujnFNx4iZ2K2xqdCY2ZKSu8CX4velLfR7V+bLXBSYPz1yNn22qDijsTN6
+aupZU92+wtzPV9LKwcC2y7s6lMbje4RoYvuyHXXV00d+fNreNH4p9dGvdtyTdihZ
+/G5z3qX0HvhosGxhbseOC9mRyIsbJ2M/h6ycj4dH7YKuO6x5yn6jnm59uOVMza3e
+m10zOx8PrVvjG5YD1S2Dx9ePbCgd2Csmx08k+l9vHUz3+6fbxoomsyaT2YvPPZ+I
+33tfgt+K7X2FPS8LJjKcsmsNq1Ze3B3e+WVmRfI+bLt51Z+9brgKXz/WPPy4O7S8
+t7QoL/Aqr2OT03n3wI26Nedbj65t39M2Ou2fHfk6FhkpHljyYBIVBi60JVy1tyKr
+X1+68duTnA99t7sjvwE=
+=Ik11
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aoemerson
+
+==================================================================
