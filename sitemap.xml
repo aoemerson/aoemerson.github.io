@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://andrewemerson.io/</loc>
-    <lastmod>2016-11-02T23:31:09+00:00</lastmod>
+    <loc>http://andrewemerson.io/post/first-year-as-software-engineer/</loc>
+    <lastmod>2018-03-30T23:31:09+00:00</lastmod>
   </url>
   
   <url>
@@ -19,6 +20,35 @@
   <url>
     <loc>http://andrewemerson.io/about/</loc>
     <lastmod>2016-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://andrewemerson.io/</loc>
+    <lastmod>2018-03-30T23:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://andrewemerson.io/tags/career-change/</loc>
+    <lastmod>2018-03-30T23:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://andrewemerson.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://andrewemerson.io/post/</loc>
+    <lastmod>2018-03-30T23:31:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://andrewemerson.io/tags/</loc>
+    <lastmod>2018-03-30T23:31:09+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

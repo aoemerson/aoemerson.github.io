@@ -2,17 +2,152 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom"
      xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0" >
     <channel>
-        <title>Andrew Emerson</title>
-        <link>http://andrewemerson.io/index.xml</link>
-        <description>Recent posts by Andrew Emerson</description>
+        <title>Andrew Emerson on Andrew Emerson</title>
+        <link>http://andrewemerson.io/</link>
+        <description>Recent posts in Andrew Emerson by Andrew Emerson</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-gb</language>
-        <webfeeds:cover image="/img/home-header.jpg" />
-        <webfeeds:icon>/apple-icon-180x180.png</webfeeds:icon>
-        <webfeeds:accentColor>#1ABC9C</webfeeds:accentColor>
-        <copyright>Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)</copyright>
-        <lastBuildDate>Wed, 02 Nov 2016 23:31:09 +0000</lastBuildDate>
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Fri, 30 Mar 2018 23:31:09 +0000</lastBuildDate>
+        <atom:link href="/" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>My first year as a mobile Software Engineer</title>
+            <link>http://andrewemerson.io/post/first-year-as-software-engineer/</link>
+            <pubDate>Fri, 30 Mar 2018 23:31:09 +0000</pubDate>
+            
+            <guid>http://andrewemerson.io/post/first-year-as-software-engineer/</guid>
+            <description>![CDATA[<img href="/img/first-year-engineer/hero.jpg"/>
+
+&lt;h3 id=&#34;picking-up-where-i-left-off&#34;&gt;Picking up where I left off&lt;/h3&gt;
+
+&lt;p&gt;Since my &lt;a href=&#34;http://andrewemerson.io/post/starting-my-career-change&#34;&gt;last blog post&lt;/a&gt; (yea, it&amp;rsquo;s been a while), I made myself busy searching for jobs in and around London, eager to effect my career change into making apps at an exciting product company. The process of finding your first gig as a new apps developer is deserving of a post in itself but for now here&amp;rsquo;s the &lt;strong&gt;TL;DR&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I talked to many recruitement agents with very varying success - I guess a new entrant to the engineer market is a hard sell for agents and I suspect it&amp;rsquo;s not a very fruitful way to land a great position anyway, with many companies unwilling to work with agents.&lt;/li&gt;
+&lt;li&gt;I attended &lt;a href=&#34;https://www.siliconmilkroundabout.com/&#34;&gt;Silicon Milk Roundabout&lt;/a&gt; - an enjoyable if incredibly tiring day of speaking to lots of tech companies looking for engineering talent. This did lead to a number of very good leads and my eventual position at Skyscanner.&lt;/li&gt;
+&lt;li&gt;I had many interviews, hacker-rank tests and &lt;em&gt;thankfully&lt;/em&gt; only one ackward white-board-me-an-algorithm-&lt;strong&gt;now&lt;/strong&gt; session&lt;/li&gt;
+&lt;li&gt;There was one crazy week with three full-on interviews in as many days (not recommended, my brain was wiped!) but I must have done something right because I ended the week with three offers! 🎉&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;skyscanner&#34;&gt;Skyscanner ✈️&lt;/h3&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;http://andrewemerson.io/img/first-year-engineer/skyscanner-app.webp&#34; alt=&#34;A screenshot from the Skyscanner Android app&#34; width=&#34;40%&#34; height=&#34;40%&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        The Skyscanner Android app and a screen I pour a lot of love into ❤️
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;With three very tempting job offers as a mobile Software Engineer to choose from (Skycanner, a challenger bank and a transport e-ticketing company), I had some thinking to do. In the end, the choice was quite easy.&lt;/p&gt;
+
+&lt;p&gt;The top reasons for choosing Skyscanner were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The opportunity to work on a &lt;strong&gt;product&lt;/strong&gt; that many people know and love and which operates at impressive scale (&amp;gt; 60m monthly app users)&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;culture&lt;/strong&gt;: I liked how they emphasised the importance of learning, the trusting attitude towards time-off and flexible working and what seemed like a workplace for grown-ups&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:grownups&#34;&gt;&lt;a href=&#34;#fn:grownups&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Reading their engineering blog, I was impressed with some of the &lt;strong&gt;engineering challenges&lt;/strong&gt; taken on, such as the approach to product &lt;a href=&#34;https://medium.com/@Skyscanner/the-case-for-experimentation-76fb35c8854a&#34;&gt;experimentation&lt;/a&gt; and &lt;a href=&#34;http://codevoyagers.com/2016/02/17/analytics-and-data-driven-development-in-apps/&#34;&gt;analytics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;the-first-year-as-a-new-engineer&#34;&gt;The first year as a new Engineer&lt;/h3&gt;
+
+&lt;p&gt;One of the primary reasons for joining Skyscanner was the opportunity to be continuously learning new things. In fact, &lt;a href=&#34;https://medium.com/@Skyscanner/lessons-in-achieving-growth-from-a-3-year-old-2f41f2bdbce2?linkId=29113179&#34;&gt;&amp;ldquo;Master. Teach. Learn.&amp;rdquo;&lt;/a&gt; is one of Skyscanner&amp;rsquo;s Core Values.&lt;/p&gt;
+
+&lt;p&gt;Well, my first months at Skyscanner did not disappoint. I was hired on the back of my experience with Android development but I was asked during the hiring process if I had any objections to picking up some iOS work for a time. Keen to learn something new, my first challenge at Skyscanner involved diving into a new world of Objective-C, Cocoa Touch and slowly appreciating that an unchecked &lt;code&gt;nil&lt;/code&gt; isn&amp;rsquo;t always as disastrous for your application as Android Java&amp;rsquo;s &lt;code&gt;null&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Surrounded by outstanding engineers, my old friend &lt;em&gt;Imposter Syndrome&lt;/em&gt; barged into my psyche and took residence&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Before long, I was reaching the point where it was time for my first Pull Request. Surrounded by outstanding engineers, my old friend &lt;a href=&#34;https://en.wikipedia.org/wiki/Impostor_syndrome&#34;&gt;Imposter Syndrome&lt;/a&gt; barged into my psyche and took residence while I awaited feedback on my first contribution.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:pr&#34;&gt;&lt;a href=&#34;#fn:pr&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; It&amp;rsquo;s very easy, especially while learning something completely new, to feel like a fraud and that you don&amp;rsquo;t deserve to be there alongside the &lt;em&gt;real&lt;/em&gt; engineers - this feeling was quite hard to shake off.&lt;/p&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;https://imgs.xkcd.com/comics/impostor_syndrome.png&#34; alt=&#34;It&amp;#39;s actually worst in people who study the Dunning–Kruger effect. We tried to organize a conference on it, but the only people who would agree to give the keynote were random undergrads.&#34; width=&#34;40%&#34; height=&#34;40%&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Imposter Syndrome struck with the arrival of my first pull request.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Thankfully the peer review went fine&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:wince&#34;&gt;&lt;a href=&#34;#fn:wince&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; and as I moved on to other things my confidence grew, I found myself working on more complex tasks and I felt proud when some production experiments that I worked on got in front of our users.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-highlights&#34;&gt;The Highlights&lt;/h3&gt;
+
+&lt;p&gt;It has been a bit of an emotional rollercoaster starting out in my new career path but I am happy to say it was the best decision I have taken by far. I&amp;rsquo;m finally working in a discipline which scratches the right intellectual itches, allows me to explore my technical curiosity whilst staying close to what is most important: the product experience and delivering the right things for travellers that use Skyscanner.&lt;/p&gt;
+
+&lt;p&gt;Here are a few of my highlights from this past year:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Working with some of the sharpest minds I have met.&lt;/strong&gt; I expected my colleagues at Skyscanner to be very good Engineers and Product people but what surprised and delighted me was their abilities outside of their direct areas of expertise. The discussions we have had on correct experimental configurations, product direction and user research have shown that Skyscanner really does hire &lt;a href=&#34;http://whatis.techtarget.com/definition/T-shaped-employee&#34;&gt;T-shaped&lt;/a&gt; people who can stretch themselves in many directions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning iOS, 2 programming languages, an experimentation and analytics platform in 6 months.&lt;/strong&gt; While it would be wrong to say I have mastered iOS, Objective-C and Swift during this time, I did have a moment at one point where I took stock of what I had achieved in around 6 months. I had got to grips with Objective-C, written my first features in Swift, got familiar with iOS development, oriented myself in a large iOS code base and understood how we do experimentation and analytics at Skyscanner. It felt good to have embedded myself in the team but also to realise how much more room there was to grow.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creating a cute Star Wars Easter Egg.&lt;/strong&gt; In December, we took it upon ourselves to make a fun easter egg feature to let our personalities shine through in the app and to provide Star Wars fans with a bit of a chuckle. It was great to work on something so playful and we all enjoyed seeing feedback like this from our users.
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;This is is so cute from &lt;a href=&#34;https://twitter.com/Skyscanner?ref_src=twsrc%5Etfw&#34;&gt;@skyscanner&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/thelastjedi?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#thelastjedi&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/starwars?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#starwars&lt;/a&gt; &lt;a href=&#34;https://t.co/XzCBKjcrm7&#34;&gt;pic.twitter.com/XzCBKjcrm7&lt;/a&gt;&lt;/p&gt;&amp;mdash; kiramadeira 🤔 (@kiramadeira) &lt;a href=&#34;https://twitter.com/kiramadeira/status/943883688416284673?ref_src=twsrc%5Etfw&#34;&gt;December 21, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tips-for-new-engineers&#34;&gt;Tips for new engineers&lt;/h3&gt;
+
+&lt;p&gt;The key theme for my first year as a mobile Software Engineer is &lt;em&gt;learning&lt;/em&gt;. I have learned an enormous amount technically but some of the more valuable lessons were the softer elements of our craft.&lt;/p&gt;
+
+&lt;p&gt;Here are my top tips taken away from my first year in my new career:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Don&amp;rsquo;t be afraid to ask for help.&lt;/strong&gt; During my initial learning phase, it was tempting to feel like I should be getting on with things myself and prove my worth individually. After all, I had passed the hiring bar and should just be getting on with things, right? &lt;strong&gt;Wrong.&lt;/strong&gt; I received some great feedback early on that I should be making use of the experience around me to bootstrap my learning - once I took this on board, I made much more fruitful progress.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Don&amp;rsquo;t assume people are too busy or unwilling to help.&lt;/strong&gt; Following from above, it can be easy to feel like others will be too busy to stop and help you with your &amp;ldquo;silly&amp;rdquo; questions. While I expect some organisations may work in this way, I&amp;rsquo;m happy to say this &lt;em&gt;cultural code smell&lt;/em&gt; is not present at Skyscanner. Once I moved past my fear of appearing clueless, I found my colleagues were happy to help and enjoyed distributing knowledge through the team.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speak up&lt;/strong&gt; - just because you&amp;rsquo;re new and relatively inexperienced, it doesn&amp;rsquo;t follow that your opinions will not be valuable to those around you. Even if you voice an opinion that turns out to be flawed - it still has the benefit of eliciting further justification for decisions that have been taken.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;ok-what-s-next&#34;&gt;OK, what&amp;rsquo;s next?&lt;/h3&gt;
+
+&lt;p&gt;In short: more learning. I have recently switched focus back to Android development in our drive to bring our iOS and Android apps to feature parity. If you&amp;rsquo;re a fan of Skyscanner&amp;rsquo;s &lt;em&gt;Explore Everywhere&lt;/em&gt; section of the Android app, you can look forward to seeing some changes which bring it up to speed with its iOS sibling.&lt;/p&gt;
+
+&lt;p&gt;During my spell of iOS development, a few things changed in the Android world - most notably Kotlin becoming &lt;a href=&#34;https://developer.android.com/kotlin/index.html&#34;&gt;a first-class citizen&lt;/a&gt;. I&amp;rsquo;ve recently been enjoying adding this further programming language to my engineering swiss army knife. As a Product Engineering team, we have also started to introduce &lt;a href=&#34;https://facebook.github.io/react-native/&#34;&gt;React Native&lt;/a&gt; to our tech stack - I anticipate getting my hands dirty with this technology in the near future as well.&lt;/p&gt;
+
+&lt;h3 id=&#34;summing-up&#34;&gt;Summing up&lt;/h3&gt;
+
+&lt;p&gt;When I look back at where I was 18 months ago searching for jobs, wondering whether I could make it as a Software Engineer, a large, contented smile comes to my face. It&amp;rsquo;s difficult and scary taking the plunge away from the familiar but if you have the belief and determination - it really is possible.&lt;/p&gt;
+
+&lt;p&gt;The last year working at Skyscanner has been such a thrill and a challenge&amp;hellip;just how I like it.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;If you like what you have heard about Skyscanner, take a look at our &lt;a href=&#34;https://grnh.se/pgb0lkx41&#34;&gt;current open positions on our jobs site&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:grownups&#34;&gt;By this I mean they have all the perks that are now familiar to tech workers but without the oftentimes juvenile atmosphere commonly seen at startups.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:grownups&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:pr&#34;&gt;A small, non-production feature to locally amend experiment values on our internal builds.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:pr&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:wince&#34;&gt;I took a look at that code recently and winced a little - I guess this is a common experience in Software Engineering and is a good method of measuring your growth.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:wince&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+]]</description>
+        </item>
         
         <item>
             <title>From code &amp; back: Why I changed careers</title>
@@ -25,7 +160,7 @@
 &lt;h3 id=&#34;synergise-me&#34;&gt;Synergise me&lt;/h3&gt;
 
 
-&lt;figure &gt;
+&lt;figure&gt;
     
         &lt;img src=&#34;http://andrewemerson.io/img/starting-my-career-change/consulting.jpg&#34; alt=&#34;Stock illustration of two consultants consulting&#34; /&gt;
     
@@ -65,7 +200,7 @@
 &lt;h3 id=&#34;pop-there-it-goes&#34;&gt;Pop! There it goes.&lt;/h3&gt;
 
 
-&lt;figure &gt;
+&lt;figure&gt;
     
         &lt;img src=&#34;http://andrewemerson.io/img/starting-my-career-change/bubble.gif&#34; alt=&#34;Animated gif of bubble bursting&#34; /&gt;
     
@@ -82,9 +217,9 @@
 &lt;/figure&gt;
 
 
-&lt;p&gt;With an air of inevitability, the bubble eventually burst and the honeymoon was over.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:footnote&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:footnote&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; What wasn&amp;rsquo;t clear to me initially was the cause of the steady decline of goodwill that led from &lt;strong&gt;absolutely loving it&lt;/strong&gt; to &lt;strong&gt;OMFG, get me out of here - why didn&amp;rsquo;t I leave 3 years ago?!&lt;/strong&gt; Perhaps there are parallels with a doomed relationship: everything is fine until&amp;hellip;it isn&amp;rsquo;t and you realise things haven&amp;rsquo;t been OK for a long time.&lt;/p&gt;
+&lt;p&gt;With an air of inevitability, the bubble eventually burst and the honeymoon was over.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:footnote&#34;&gt;&lt;a href=&#34;#fn:footnote&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; What wasn&amp;rsquo;t clear to me initially was the cause of the steady decline of goodwill that led from &lt;strong&gt;absolutely loving it&lt;/strong&gt; to &lt;strong&gt;OMFG, get me out of here - why didn&amp;rsquo;t I leave 3 years ago?!&lt;/strong&gt; Perhaps there are parallels with a doomed relationship: everything is fine until&amp;hellip;it isn&amp;rsquo;t and you realise things haven&amp;rsquo;t been OK for a long time.&lt;/p&gt;
 
-&lt;p&gt;In my case, there were a few factors at play, a huge one of which was a traumatic couple of years following the sudden deaths of two high-school friends within a year of each other. During this period, the focus at work was very much on my own well-being&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:acn&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:acn&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; and keeping the job situation relatively steady and constant.&lt;/p&gt;
+&lt;p&gt;In my case, there were a few factors at play, a huge one of which was a traumatic couple of years following the sudden deaths of two high-school friends within a year of each other. During this period, the focus at work was very much on my own well-being&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:acn&#34;&gt;&lt;a href=&#34;#fn:acn&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; and keeping the job situation relatively steady and constant.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;It&amp;rsquo;s too corporate&amp;hellip;I don&amp;rsquo;t aspire to be like any of my bosses&amp;hellip;Why do we insist on speaking in a series of cringe-worthy business platitudes?! &lt;em&gt;Had I had my fill of synergies?!&lt;/em&gt;&lt;/p&gt;
@@ -97,7 +232,7 @@
 &lt;h3 id=&#34;xin-chào-hà-nội-hello-world-android&#34;&gt;Xin chào, Hà Nội (&amp;amp; &lt;code&gt;Hello World&lt;/code&gt;, Android)&lt;/h3&gt;
 
 
-&lt;figure &gt;
+&lt;figure&gt;
     
         &lt;img src=&#34;http://andrewemerson.io/img/starting-my-career-change/hanoi.jpg&#34; alt=&#34;Photo of Vietnamese lady wearing conical hat cycling past the cathedral in Hanoi&amp;#39;s French Quarter&#34; /&gt;
     
@@ -127,7 +262,7 @@
 &lt;li&gt;Manually taking screenshots and cropping the content in question which was time consuming and wasting valuable storage space on my device.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;To address this, I set about making an android app which would make this screenshot process much easier and wouldn&amp;rsquo;t clog up my phone with loads of image files. Fast-forward 12 months and I had created and &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.justshowmeit.android&amp;amp;referrer=utm_source%3Dblog%26utm_medium%3Dmention%26utm_content%3Dstarting-my-career-change&#34;&gt;published&lt;/a&gt; my very first Android app and supporting JSON web service and learnt a great deal along away.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:nextblogs&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:nextblogs&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;To address this, I set about making an android app which would make this screenshot process much easier and wouldn&amp;rsquo;t clog up my phone with loads of image files. Fast-forward 12 months and I had created and &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.justshowmeit.android&amp;amp;referrer=utm_source%3Dblog%26utm_medium%3Dmention%26utm_content%3Dstarting-my-career-change&#34;&gt;published&lt;/a&gt; my very first Android app and supporting JSON web service and learnt a great deal along away.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:nextblogs&#34;&gt;&lt;a href=&#34;#fn:nextblogs&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;This&lt;/strong&gt; is what I have been missing: the opportunity to be creative and express myself in the work that I produce.&lt;/p&gt;
@@ -143,7 +278,7 @@
 &lt;p&gt;I&amp;rsquo;m creative &amp;ndash; from now on, I need to work on something which will allow me to express my creative side.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;It was only after taking a break from Accenture, trying something new and having the head space to reflect that I realised: I&amp;rsquo;m creative&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:techcreative&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:techcreative&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; &amp;ndash; from now on, I need to work on something which will allow me to express my creative side.&lt;/p&gt;
+&lt;p&gt;It was only after taking a break from Accenture, trying something new and having the head space to reflect that I realised: I&amp;rsquo;m creative&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:techcreative&#34;&gt;&lt;a href=&#34;#fn:techcreative&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; &amp;ndash; from now on, I need to work on something which will allow me to express my creative side.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m still at the beginning of my career change. Over the following weeks and months, I plan to continue to document the journey I&amp;rsquo;m taking alongside technical posts about Android bits and bobs. You can follow all my posts about my career change under &lt;a href=&#34;http://andrewemerson.io/tags/career-change&#34;&gt;#career-change&lt;/a&gt; on this site. In the meantime - let me know your thoughts in the comments.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
@@ -183,7 +318,7 @@
         </item>
         
         <item>
-            <title>About Me</title>
+            <title>About me</title>
             <link>http://andrewemerson.io/about/</link>
             <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
             
