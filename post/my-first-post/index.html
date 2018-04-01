@@ -7,20 +7,20 @@
 	<meta name="author" content="Andrew Emerson">
 	<meta name="description" content="I blog about Android development">
 	<meta name="keywords" content="android,tech,personal,blog">
-	<meta name="generator" content="Hugo 0.17" />
+	<meta name="generator" content="Hugo 0.37.1" />
 
-	
+
 	<!-- Social meta-data -->
 	<meta property="og:title" content="Welcome to my blog">
 	<meta property="og:description" content="Welcome to my website but primarily a blog, mostly covering Android development, tech trends with the occasional LOL or other things that inspire me.">
 	
 	<meta property="og:url" content="http://andrewemerson.io/post/my-first-post/">
-	<meta name="twitter:card" content="summary_large_image">	
+	<meta name="twitter:card" content="summary_large_image">
 	<meta property="og:site_name" content="Andrew Emerson">
 	<meta name="twitter:site" content="@aoemerson">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="http://andrewemerson.io/css/main.css">
+	<link rel="stylesheet" href="http://andrewemerson.iocss/main.css">
 
 	<!--Favicons-->
 
@@ -46,24 +46,27 @@
 </head>
 
 <body>
-    <header class="site-header" id="site-head">
+	<header class="site-header" id="site-head">
 	<div class="branding">
-		<a href="http://andrewemerson.io/">
-		<img class="avatar" src="http://andrewemerson.io/img/avatar_orig.jpg" alt=""/>
+		<a href="http://andrewemerson.io">
+		<img class="avatar" src="http://andrewemerson.ioimg/avatar_orig.jpg" alt=""/>
 		</a>
 		<h1 class="site-title">
-			<a href="http://andrewemerson.io/">Andrew Emerson</a>
+			<a href="http://andrewemerson.io">Andrew Emerson</a>
 		</h1>
 	</div>
 	<nav class="site-nav">
-		<ul><li><a class="site-nav-text" href="/about/">About Me</a></li><li><a class="site-nav-text" href="http://andrewemerson.io/CV/Andrew_Emerson-Android_Engineer-CV.pdf">My CV</a></li><li>
-	<a href="http://andrewemerson.io/" title="">
+		<ul>
+	      	<li><a href="/about/"> About me </a></li>
+
+	      	<li class="icon">
+	<a href="http://andrewemerson.io" title="">
 		<i class="fa fa-fw fa-home"></i>
 	</a>
 </li>
 
-<li>
-	<a href="http://andrewemerson.io/index.xml" title="Subcribe">
+<li class="icon">
+	<a href="http://andrewemerson.ioindex.xml" title="Subcribe">
 		<i class="fa fa-fw fa-rss"></i>
 	</a>
 </li>
@@ -78,13 +81,13 @@
 
 
 
-<li>
+<li class="icon">
 	<a href="https://www.flickr.com/photos/andrew_emerson" title="See my photos on Flickr">
 		<i class="fa fa-fw fa-flickr"></i>
 	</a>
 </li>
 
-<li>
+<li class="icon">
 	<a href="https://github.com/aoemerson" title="Check out my code on GitHub">
 		<i class="fa fa-fw fa-github"></i>
 	</a>
@@ -92,14 +95,14 @@
 
 
 
-<li>
+<li class="icon">
 	<a href="http://instagram.com/drewemerson" title="Folow me on Instagram">
 		<i class="fa fa-fw fa-instagram"></i>
 	</a>
 </li>
 
-<li>
-	<a href="https://uk.linkedin.com/in/andrewemerson" title="Connect on LinkedIn">
+<li class="icon">
+	<a href="https://www.linkedin.com/in/andrewemerson" title="Connect on LinkedIn">
 		<i class="fa fa-fw fa-linkedin"></i>
 	</a>
 </li>
@@ -110,7 +113,7 @@
 
 
 
-<li>
+<li class="icon">
 	<a href="http://stackoverflow.com/story/aoemerson" title="See my developer story on Stackoverflow">
 		<i class="fa fa-fw fa-stack-exchange"></i>
 	</a>
@@ -120,7 +123,7 @@
 
 
 
-<li>
+<li class="icon">
 	<a href="https://twitter.com/aoemerson" title="Follow me on twitter">
 		<i class="fa fa-fw fa-twitter"></i>
 	</a>
@@ -131,19 +134,22 @@
 
 
 
-</ul>
+
+
+
+	    </ul>
 	</nav>
 </header>
 
 
-    <div class="content">
-    <article>
+	<div class="content">
+	<article>
 		<header>
 			<h1 class="title">Welcome to my blog</h1>
 			<p class="meta">
-    October 28, 2016 &middot; 1 minute read
+	October 28, 2016 &middot; 1 minute read
 
-    
+	
 </p>
 
 		</header>
@@ -177,25 +183,30 @@
 	</section>
 	<section class="comments">
 		<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'aoemerson';
-    var disqus_identifier = 'http:\/\/andrewemerson.io\/post\/my-first-post\/';
-    var disqus_title = 'Welcome to my blog';
-    var disqus_url = 'http:\/\/andrewemerson.io\/post\/my-first-post\/';
-
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
     (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "aoemerson" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 	</section>
-    </div>
+	</div>
 
-    <footer class="site-footer">
-	<p class="text">&copy; 2016 - Powered by <a href="//gohugo.io/">Hugo</a> with the <a href="//github.com/digitalcraftsman/hugo-type-theme">Type Theme</a></p>
+	<footer class="site-footer">
+	<p class="text">&copy; 2018 - Powered by <a href="//gohugo.io/">Hugo</a> with the <a href="//github.com/digitalcraftsman/hugo-type-theme">Type Theme</a></p>
 </footer>
 
 
@@ -203,7 +214,7 @@
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-86634006-1', 'auto');
 ga('send', 'pageview');
