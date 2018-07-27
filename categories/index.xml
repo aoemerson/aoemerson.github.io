@@ -3,7 +3,7 @@
      xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0" >
     <channel>
         <title>Categories on Andrew Emerson</title>
-        <link>http://andrewemerson.io/categories/</link>
+        <link>https://andrewemerson.io/categories/</link>
         <description>Recent posts in Categories by Andrew Emerson</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-gb</language>
