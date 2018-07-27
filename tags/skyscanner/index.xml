@@ -3,7 +3,7 @@
      xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0" >
     <channel>
         <title>Skyscanner on Andrew Emerson</title>
-        <link>http://andrewemerson.io/tags/skyscanner/</link>
+        <link>https://andrewemerson.io/tags/skyscanner/</link>
         <description>Recent posts in Skyscanner by Andrew Emerson</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-gb</language>
@@ -12,15 +12,15 @@
         
         <item>
             <title>My first year as a mobile Software Engineer</title>
-            <link>http://andrewemerson.io/post/first-year-as-software-engineer/</link>
+            <link>https://andrewemerson.io/post/first-year-as-software-engineer/</link>
             <pubDate>Fri, 30 Mar 2018 23:31:09 +0000</pubDate>
             
-            <guid>http://andrewemerson.io/post/first-year-as-software-engineer/</guid>
+            <guid>https://andrewemerson.io/post/first-year-as-software-engineer/</guid>
             <description>![CDATA[<img href="/img/first-year-engineer/hero.jpg"/>
 
 &lt;h3 id=&#34;picking-up-where-i-left-off&#34;&gt;Picking up where I left off&lt;/h3&gt;
 
-&lt;p&gt;Since my &lt;a href=&#34;http://andrewemerson.io/post/starting-my-career-change&#34;&gt;last blog post&lt;/a&gt; (yea, it&amp;rsquo;s been a while), I made myself busy searching for jobs in and around London, eager to effect my career change into making apps at an exciting product company. The process of finding your first gig as a new apps developer is deserving of a post in itself but for now here&amp;rsquo;s the &lt;strong&gt;TL;DR&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Since my &lt;a href=&#34;https://andrewemerson.io/post/starting-my-career-change&#34;&gt;last blog post&lt;/a&gt; (yea, it&amp;rsquo;s been a while), I made myself busy searching for jobs in and around London, eager to effect my career change into making apps at an exciting product company. The process of finding your first gig as a new apps developer is deserving of a post in itself but for now here&amp;rsquo;s the &lt;strong&gt;TL;DR&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;I talked to many recruitement agents with very varying success - I guess a new entrant to the engineer market is a hard sell for agents and I suspect it&amp;rsquo;s not a very fruitful way to land a great position anyway, with many companies unwilling to work with agents.&lt;/li&gt;
@@ -34,7 +34,7 @@
 
 &lt;figure&gt;
     
-        &lt;img src=&#34;http://andrewemerson.io/img/first-year-engineer/skyscanner-app.webp&#34; alt=&#34;A screenshot from the Skyscanner Android app&#34; width=&#34;40%&#34; height=&#34;40%&#34; /&gt;
+        &lt;img src=&#34;https://andrewemerson.io/img/first-year-engineer/skyscanner-app.webp&#34; alt=&#34;A screenshot from the Skyscanner Android app&#34; width=&#34;40%&#34; height=&#34;40%&#34; /&gt;
     
     
     &lt;figcaption&gt;
