@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0" >
+    <channel>
+        <title>Android on Andrew Emerson</title>
+        <link>https://andrewemerson.io/tags/android/</link>
+        <description>Recent posts in Android by Andrew Emerson</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-gb</language>
+        <lastBuildDate>Mon, 31 Dec 2018 13:22:09 +0000</lastBuildDate>
+        <atom:link href="/tags/android/" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>I ❤ Kotlin, inline function edition</title>
+            <link>https://andrewemerson.io/post/kotlin-inline-fun-love/</link>
+            <pubDate>Mon, 31 Dec 2018 13:22:09 +0000</pubDate>
+            
+            <guid>https://andrewemerson.io/post/kotlin-inline-fun-love/</guid>
+            <description>![CDATA[<img href="/img/kotlin-social.jpg"/>
+
+&lt;h1 id=&#34;kotlin-is-fun&#34;&gt;Kotlin is &lt;code&gt;fun&lt;/code&gt;!&lt;/h1&gt;
+
+&lt;p&gt;Over the last year, I have been exclusively writing new Android code (and converting old code) in Kotlin. It&amp;rsquo;s such an expressive, succint and fun (excuse the &lt;code&gt;fun&lt;/code&gt; pun) language to write with. I won&amp;rsquo;t go into all the reasons right now plus many others have &lt;a href=&#34;https://m.signalvnoise.com/how-i-fell-in-love-with-a-programming-language-8933d5e749ed&#34;&gt;written&lt;/a&gt; about this before.&lt;/p&gt;
+
+&lt;p&gt;Today I want to share a small snippet which demonstrates a recent warm and fuzzy feeling I got writing in Kotlin.&lt;/p&gt;
+
+&lt;p&gt;I have been working on a requirement to measure network calls in our app using an OKHttp &lt;a href=&#34;https://github.com/square/okhttp/wiki/Interceptors&#34;&gt;&lt;code&gt;NetworkInterceptor&lt;/code&gt;&lt;/a&gt; and log the stats to our analytics platform.&lt;/p&gt;
+
+&lt;p&gt;The obvious way to write this is something like this (code is simplified):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-kotlin&#34; data-lang=&#34;kotlin&#34;&gt;&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;fun&lt;/span&gt; &lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;intercept&lt;/span&gt;() {
+        &lt;span style=&#34;color:#888&#34;&gt;// ...
+&lt;/span&gt;&lt;span style=&#34;color:#888&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;val&lt;/span&gt; start = SystemClock.elapsedRealtime()
+        &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;val&lt;/span&gt; result = doSomethingWeWantToMeasure()
+        &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;val&lt;/span&gt; duration = SystemClock.elapsedRealtime() - start
+        log(duration)
+        &lt;span style=&#34;color:#888&#34;&gt;// ...
+&lt;/span&gt;&lt;span style=&#34;color:#888&#34;&gt;&lt;/span&gt;}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This works fine but the &lt;em&gt;meat&lt;/em&gt; of the function&amp;rsquo;s logic is polluted with measurement code making it harder for your colleagues to grok what&amp;rsquo;s going on.&lt;/p&gt;
+
+&lt;h1 id=&#34;enter-inline-generic-function-with-lambda&#34;&gt;Enter &lt;code&gt;inline&lt;/code&gt; generic function with lambda&lt;/h1&gt;
+
+&lt;p&gt;Here&amp;rsquo;s how an inline function can help this code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-kotlin&#34; data-lang=&#34;kotlin&#34;&gt;&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;fun&lt;/span&gt; &lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;intercept&lt;/span&gt;() {
+        &lt;span style=&#34;color:#888&#34;&gt;// ...
+&lt;/span&gt;&lt;span style=&#34;color:#888&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;val&lt;/span&gt; result = measure { doSomethingWeWantToMeasure() }
+        &lt;span style=&#34;color:#888&#34;&gt;// ...
+&lt;/span&gt;&lt;span style=&#34;color:#888&#34;&gt;&lt;/span&gt;}
+
+&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;inline&lt;/span&gt; &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;fun&lt;/span&gt; &amp;lt;T&amp;gt; &lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;measure&lt;/span&gt;(action: () -&amp;gt; T) {
+        &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;val&lt;/span&gt; start = SystemClock.elapsedRealtime()
+        &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;val&lt;/span&gt; result = action()
+        &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;val&lt;/span&gt; duration = SystemClock.elapsedRealtime() - start
+        log(duration)
+        &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;return&lt;/span&gt; result
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Better, no? Now I can concentrate on reading what the &lt;code&gt;intercept()&lt;/code&gt; function&amp;rsquo;s main intention is without skipping over lines of measurement code. We also benefit from the option of reusing that code in other places where we want to profile performance.&lt;/p&gt;
+
+&lt;h1 id=&#34;what-is-inline&#34;&gt;What is &lt;code&gt;inline&lt;/code&gt;?&lt;/h1&gt;
+
+&lt;p&gt;I am still quite new to this so this may not be 100% for the experts but my simple explanation is:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;inline&lt;/code&gt; allows you to call a function with a lambda argument within a closure (&lt;code&gt;{ ... }&lt;/code&gt;) rather than passing the lambda like &lt;code&gt;measure(myLamda)&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can read the longer, more technical (and possibly more accurate) explanation &lt;a href=&#34;http://kotlinlang.org/docs/reference/inline-functions.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the mean time, happy Kotlin-ing and feel free to ask questions or add your favourite Kotlin &lt;em&gt;warm-and-fuzzies&lt;/em&gt; in the comments.&lt;/p&gt;
+]]</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
-	<title>About me&middot; Andrew Emerson</title>
+	<title>I ❤ Kotlin, inline function edition&middot; Andrew Emerson</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Andrew Emerson">
@@ -11,10 +11,10 @@
 
 
 	<!-- Social meta-data -->
-	<meta property="og:title" content="About me">
-	<meta property="og:description" content="">
-	
-	<meta property="og:url" content="https://andrewemerson.io/about/">
+	<meta property="og:title" content="I ❤ Kotlin, inline function edition">
+	<meta property="og:description" content="There are many instances of loving Kotlin since I started using it at work for our Android app, here&#39;s one of the latest reasons">
+	<meta property="og:image" content="https://andrewemerson.io/img/kotlin-social.jpg">
+	<meta property="og:url" content="https://andrewemerson.io/post/kotlin-inline-fun-love/">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="og:site_name" content="Andrew Emerson">
 	<meta name="twitter:site" content="@aoemerson">
@@ -144,24 +144,20 @@
 
 	<div class="content">
 	<article class="feature-image">
-		<header style="background-image: url('https://andrewemerson.io/img/home-header.jpg')">
+		<header style="background-image: url('https://andrewemerson.io//img/kotlin.jpg')">
 		<div class="title-area">
-			<h1 class="title">About me</h1>
+			<h1 class="title">I ❤ Kotlin, inline function edition</h1>
 				<p class="meta">
-	October 28, 2016 &middot; 1 minute read
+	December 31, 2018 &middot; 2 minute read
 
 	
+		&middot; Tags:
+			<a href="https://andrewemerson.io/tags/android">android</a>
+			, <a href="https://andrewemerson.io/tags/kotlin">kotlin</a>
+			
 </p>
 
 				
-    <p class="imageattrib">
-            Header image by 
-            
-                <a href="https://www.flickr.com/photos/andrew_emerson/">me</a>
-            
-            
-    </p>    
-
 
 
 
@@ -171,45 +167,68 @@
 	<section class="post-content">
 		
 
-<h2 id="hi-i-m-andrew">Hi, I&rsquo;m Andrew</h2>
+<h1 id="kotlin-is-fun">Kotlin is <code>fun</code>!</h1>
 
-<p>I&rsquo;m an Android Developer who has recently <a href="/post/starting-my-career-change/">switched careers</a> from IT Consulting and I&rsquo;m loving it.</p>
+<p>Over the last year, I have been exclusively writing new Android code (and converting old code) in Kotlin. It&rsquo;s such an expressive, succint and fun (excuse the <code>fun</code> pun) language to write with. I won&rsquo;t go into all the reasons right now plus many others have <a href="https://m.signalvnoise.com/how-i-fell-in-love-with-a-programming-language-8933d5e749ed">written</a> about this before.</p>
 
-<p>I don&rsquo;t want to rehash my CV here. For that, you can <a href="/CV/Andrew_Emerson-Android_Engineer-CV.pdf">download it</a>, take a look at my StackOverflow <a href="https://stackoverflow.com/story/aoemerson">developer story</a>, browse <a href="https://github.com/aoemerson">my github</a> or try any one of other social links in the header up above.</p>
+<p>Today I want to share a small snippet which demonstrates a recent warm and fuzzy feeling I got writing in Kotlin.</p>
 
-<h2 id="what-makes-me-tech">What makes me Tech</h2>
+<p>I have been working on a requirement to measure network calls in our app using an OKHttp <a href="https://github.com/square/okhttp/wiki/Interceptors"><code>NetworkInterceptor</code></a> and log the stats to our analytics platform.</p>
 
-<p>The technology products that excite me the most are those that have the greatest impact on simplifying the lives of the individual. I&rsquo;m less about <strong>staring</strong> at your smartphone for hours on end and more about it being a trusted companion that&rsquo;s reliably there when you need it but won&rsquo;t betray you when you&rsquo;re not looking.</p>
+<p>The obvious way to write this is something like this (code is simplified):</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin"><span style="color:#080;font-weight:bold">fun</span> <span style="color:#06b;font-weight:bold">intercept</span>() {
+        <span style="color:#888">// ...
+</span><span style="color:#888"></span>        <span style="color:#080;font-weight:bold">val</span> start = SystemClock.elapsedRealtime()
+        <span style="color:#080;font-weight:bold">val</span> result = doSomethingWeWantToMeasure()
+        <span style="color:#080;font-weight:bold">val</span> duration = SystemClock.elapsedRealtime() - start
+        log(duration)
+        <span style="color:#888">// ...
+</span><span style="color:#888"></span>}</code></pre></div>
+<p>This works fine but the <em>meat</em> of the function&rsquo;s logic is polluted with measurement code making it harder for your colleagues to grok what&rsquo;s going on.</p>
 
-<p>Maps. I also really like apps that utilise maps. I&rsquo;ve even started having a go at <a href="https://github.com/aoemerson/crimes-app">making one</a> and I intend to blog about some of the interesting challenges raised when making apps with maps.</p>
+<h1 id="enter-inline-generic-function-with-lambda">Enter <code>inline</code> generic function with lambda</h1>
 
-<h2 id="things-i-enjoy">Things I enjoy</h2>
+<p>Here&rsquo;s how an inline function can help this code:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin"><span style="color:#080;font-weight:bold">fun</span> <span style="color:#06b;font-weight:bold">intercept</span>() {
+        <span style="color:#888">// ...
+</span><span style="color:#888"></span>        <span style="color:#080;font-weight:bold">val</span> result = measure { doSomethingWeWantToMeasure() }
+        <span style="color:#888">// ...
+</span><span style="color:#888"></span>}
 
-<h3 id="music">Music</h3>
+<span style="color:#080;font-weight:bold">inline</span> <span style="color:#080;font-weight:bold">fun</span> &lt;T&gt; <span style="color:#06b;font-weight:bold">measure</span>(action: () -&gt; T) {
+        <span style="color:#080;font-weight:bold">val</span> start = SystemClock.elapsedRealtime()
+        <span style="color:#080;font-weight:bold">val</span> result = action()
+        <span style="color:#080;font-weight:bold">val</span> duration = SystemClock.elapsedRealtime() - start
+        log(duration)
+        <span style="color:#080;font-weight:bold">return</span> result
+}</code></pre></div>
+<p>Better, no? Now I can concentrate on reading what the <code>intercept()</code> function&rsquo;s main intention is without skipping over lines of measurement code. We also benefit from the option of reusing that code in other places where we want to profile performance.</p>
 
-<p>Love a festival, love a gig and listen to music of all sorts of genres. Here&rsquo;s a smattering of the kind of music I have been liking lately.</p>
+<h1 id="what-is-inline">What is <code>inline</code>?</h1>
 
-<iframe src="https://embed.spotify.com/?uri=spotify:user:drew.emerson:playlist:6dBHgaIq4TQHRsgB0CydM3&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<p>I am still quite new to this so this may not be 100% for the experts but my simple explanation is:</p>
 
-<h3 id="photography">Photography</h3>
+<blockquote>
+<p><code>inline</code> allows you to call a function with a lambda argument within a closure (<code>{ ... }</code>) rather than passing the lambda like <code>measure(myLamda)</code>.</p>
+</blockquote>
 
-<p>I love to get out shooting when I can. Here&rsquo;s a sample of some of the stuff I&rsquo;m most proud of:</p>
+<p>You can read the longer, more technical (and possibly more accurate) explanation <a href="http://kotlinlang.org/docs/reference/inline-functions.html">here</a>.</p>
 
-<p><div style="position: relative; padding-bottom: 60%; overflow: auto; -webkit-overflow-scrolling:touch;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=www.flickr.com/photos/andrew_emerson/&sort=0&by=user&theme=tiles&scale=fit&skin=alexis&id=582637fc9cd0f" scrolling="no" frameborder="0" allowFullScreen="true"></iframe></div><small style="display: block; text-align: center; margin: 0 auto;">Created with <a href="https://flickrembed.com">flickr embed</a>.</small><!-- We would appreciate if you leave a backlink --></p>
+<p>In the mean time, happy Kotlin-ing and feel free to ask questions or add your favourite Kotlin <em>warm-and-fuzzies</em> in the comments.</p>
 
 	</section>
 	<section class="share">
 	            <p class="backtotop"><a data-scroll href="#site-head"><i class="fa fa-lg fa-fw fa-angle-double-up"></i></a><a data-scroll class="backtotoptext" href="#site-head"> Back to top</a></p>
 	            <p class="info prompt">Share</p>
-	            <a href="http://twitter.com/share?text=About%20me&url=https%3a%2f%2fandrewemerson.io%2fabout%2f" title="Share on Twitter"
+	            <a href="http://twitter.com/share?text=I%20%e2%9d%a4%20Kotlin%2c%20inline%20function%20edition&url=https%3a%2f%2fandrewemerson.io%2fpost%2fkotlin-inline-fun-love%2f" title="Share on Twitter"
 	                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
 	                <i class="fa fa-2x fa-fw fa-twitter-square"></i> <span class="hidden">Twitter</span>
 	            </a>
-	            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fandrewemerson.io%2fabout%2f" title="Share on Facebook"
+	            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fandrewemerson.io%2fpost%2fkotlin-inline-fun-love%2f" title="Share on Facebook"
 	                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
 	                <i class="fa fa-2x fa-fw fa-facebook-square" style="margin-left: -8px"></i> <span class="hidden">Facebook</span>
 	            </a>
-	            <a href="https://plus.google.com/share?url=https%3a%2f%2fandrewemerson.io%2fabout%2f" title="Share on Google+"
+	            <a href="https://plus.google.com/share?url=https%3a%2f%2fandrewemerson.io%2fpost%2fkotlin-inline-fun-love%2f" title="Share on Google+"
 	               onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
 	                <i class="fa fa-2x fa-fw fa-google-plus-square" style="margin-left: -8px"></i> <span class="hidden">Google+</span>
 	            </a>
