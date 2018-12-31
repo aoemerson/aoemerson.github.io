@@ -31,21 +31,11 @@
 
 &lt;h3 id=&#34;skyscanner&#34;&gt;Skyscanner ✈️&lt;/h3&gt;
 
-
 &lt;figure&gt;
-    
-        &lt;img src=&#34;https://andrewemerson.io/img/first-year-engineer/skyscanner-app.webp&#34; alt=&#34;A screenshot from the Skyscanner Android app&#34; width=&#34;40%&#34; height=&#34;40%&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        The Skyscanner Android app and a screen I pour a lot of love into ❤️
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://andrewemerson.io/img/first-year-engineer/skyscanner-app.webp&#34;
+         alt=&#34;A screenshot from the Skyscanner Android app&#34; width=&#34;40%&#34; height=&#34;40%&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;The Skyscanner Android app and a screen I pour a lot of love into ❤️&lt;/p&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 
@@ -71,21 +61,11 @@
 
 &lt;p&gt;Before long, I was reaching the point where it was time for my first Pull Request. Surrounded by outstanding engineers, my old friend &lt;a href=&#34;https://en.wikipedia.org/wiki/Impostor_syndrome&#34;&gt;Imposter Syndrome&lt;/a&gt; barged into my psyche and took residence while I awaited feedback on my first contribution.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:pr&#34;&gt;&lt;a href=&#34;#fn:pr&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; It&amp;rsquo;s very easy, especially while learning something completely new, to feel like a fraud and that you don&amp;rsquo;t deserve to be there alongside the &lt;em&gt;real&lt;/em&gt; engineers - this feeling was quite hard to shake off.&lt;/p&gt;
 
-
 &lt;figure&gt;
-    
-        &lt;img src=&#34;https://imgs.xkcd.com/comics/impostor_syndrome.png&#34; alt=&#34;It&amp;#39;s actually worst in people who study the Dunning–Kruger effect. We tried to organize a conference on it, but the only people who would agree to give the keynote were random undergrads.&#34; width=&#34;40%&#34; height=&#34;40%&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Imposter Syndrome struck with the arrival of my first pull request.
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://imgs.xkcd.com/comics/impostor_syndrome.png&#34;
+         alt=&#34;It&amp;#39;s actually worst in people who study the Dunning–Kruger effect. We tried to organize a conference on it, but the only people who would agree to give the keynote were random undergrads.&#34; width=&#34;40%&#34; height=&#34;40%&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Imposter Syndrome struck with the arrival of my first pull request.&lt;/p&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 
@@ -159,21 +139,11 @@
 
 &lt;h3 id=&#34;synergise-me&#34;&gt;Synergise me&lt;/h3&gt;
 
-
 &lt;figure&gt;
-    
-        &lt;img src=&#34;https://andrewemerson.io/img/starting-my-career-change/consulting.jpg&#34; alt=&#34;Stock illustration of two consultants consulting&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        &amp;#34;Hey, so how about them synergies?!&amp;#34;
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://andrewemerson.io/img/starting-my-career-change/consulting.jpg&#34;
+         alt=&#34;Stock illustration of two consultants consulting&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;&amp;ldquo;Hey, so how about them synergies?!&amp;rdquo;&lt;/p&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 
@@ -199,21 +169,12 @@
 
 &lt;h3 id=&#34;pop-there-it-goes&#34;&gt;Pop! There it goes.&lt;/h3&gt;
 
-
 &lt;figure&gt;
-    
-        &lt;img src=&#34;https://andrewemerson.io/img/starting-my-career-change/bubble.gif&#34; alt=&#34;Animated gif of bubble bursting&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Source:
-        &lt;a href=&#34;https://vimeo.com/95850209&#34;&gt; 
-            Bogdan Stanciulescu
-        &lt;/a&gt; 
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://andrewemerson.io/img/starting-my-career-change/bubble.gif&#34;
+         alt=&#34;Animated gif of bubble bursting&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Source:
+                    &lt;a href=&#34;https://vimeo.com/95850209&#34;&gt;Bogdan Stanciulescu&lt;/a&gt;&lt;/p&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 
@@ -231,21 +192,11 @@
 
 &lt;h3 id=&#34;xin-chào-hà-nội-hello-world-android&#34;&gt;Xin chào, Hà Nội (&amp;amp; &lt;code&gt;Hello World&lt;/code&gt;, Android)&lt;/h3&gt;
 
-
 &lt;figure&gt;
-    
-        &lt;img src=&#34;https://andrewemerson.io/img/starting-my-career-change/hanoi.jpg&#34; alt=&#34;Photo of Vietnamese lady wearing conical hat cycling past the cathedral in Hanoi&amp;#39;s French Quarter&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        A shot I took in the French Quarter, not long after moving to Hanoi.
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
+    &lt;img src=&#34;https://andrewemerson.io/img/starting-my-career-change/hanoi.jpg&#34;
+         alt=&#34;Photo of Vietnamese lady wearing conical hat cycling past the cathedral in Hanoi&amp;#39;s French Quarter&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;A shot I took in the French Quarter, not long after moving to Hanoi.&lt;/p&gt;
+        &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 

@@ -7,8 +7,17 @@
         <description>Recent posts in Tags by Andrew Emerson</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-gb</language>
-        <lastBuildDate>Fri, 30 Mar 2018 23:31:09 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 31 Dec 2018 13:22:09 +0000</lastBuildDate>
         <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Android</title>
+            <link>https://andrewemerson.io/tags/android/</link>
+            <pubDate>Mon, 31 Dec 2018 13:22:09 +0000</pubDate>
+            
+            <guid>https://andrewemerson.io/tags/android/</guid>
+            <description>![CDATA[]]</description>
+        </item>
         
         <item>
             <title>Career Change</title>
@@ -16,6 +25,15 @@
             <pubDate>Fri, 30 Mar 2018 23:31:09 +0000</pubDate>
             
             <guid>https://andrewemerson.io/tags/career-change/</guid>
+            <description>![CDATA[]]</description>
+        </item>
+        
+        <item>
+            <title>Kotlin</title>
+            <link>https://andrewemerson.io/tags/kotlin/</link>
+            <pubDate>Mon, 31 Dec 2018 13:22:09 +0000</pubDate>
+            
+            <guid>https://andrewemerson.io/tags/kotlin/</guid>
             <description>![CDATA[]]</description>
         </item>
         

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://andrewemerson.io/post/kotlin-inline-fun-love/</loc>
+    <lastmod>2018-12-31T13:22:09+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://andrewemerson.io/post/first-year-as-software-engineer/</loc>
     <lastmod>2018-03-30T23:31:09+00:00</lastmod>
   </url>
@@ -24,7 +29,13 @@
   
   <url>
     <loc>https://andrewemerson.io/</loc>
-    <lastmod>2018-03-30T23:31:09+00:00</lastmod>
+    <lastmod>2018-12-31T13:22:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://andrewemerson.io/tags/android/</loc>
+    <lastmod>2018-12-31T13:22:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -40,8 +51,14 @@
   </url>
   
   <url>
+    <loc>https://andrewemerson.io/tags/kotlin/</loc>
+    <lastmod>2018-12-31T13:22:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://andrewemerson.io/post/</loc>
-    <lastmod>2018-03-30T23:31:09+00:00</lastmod>
+    <lastmod>2018-12-31T13:22:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -53,7 +70,7 @@
   
   <url>
     <loc>https://andrewemerson.io/tags/</loc>
-    <lastmod>2018-03-30T23:31:09+00:00</lastmod>
+    <lastmod>2018-12-31T13:22:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
