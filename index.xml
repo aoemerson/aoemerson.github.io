@@ -7,8 +7,51 @@
         <description>Recent posts in Andrew Emerson by Andrew Emerson</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-gb</language>
-        <lastBuildDate>Mon, 31 Dec 2018 13:22:09 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="/" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>About me</title>
+            <link>https://andrewemerson.io/about/</link>
+            <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://andrewemerson.io/about/</guid>
+            <description>![CDATA[
+
+&lt;h2 id=&#34;hi-i-m-andrew&#34;&gt;Hi, I&amp;rsquo;m Andrew&lt;/h2&gt;
+
+&lt;p&gt;Hey, I&amp;rsquo;m Andrew and I work as an Android Software Engineer; currently building delightful features for the &lt;a href=&#34;https://skyscanner.net&#34;&gt;Skyscanner&lt;/a&gt; Android &lt;a href=&#34;https://play.google.com/store/apps/details?id=net.skyscanner.android.main&#34;&gt;app&lt;/a&gt;. I haven&amp;rsquo;t always worked as an engineer: a few years ago I decided to make a &lt;a href=&#34;https://andrewemerson.io/post/starting-my-career-change/&#34;&gt;big change&lt;/a&gt; from IT Consulting and I &lt;a href=&#34;https://andrewemerson.io/post/first-year-as-software-engineer/&#34;&gt;haven&amp;rsquo;t looked back&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t want to rehash my CV here. For that, you can &lt;a href=&#34;https://andrewemerson.io/CV/Andrew_Emerson-Android_Engineer-CV.pdf&#34;&gt;download it&lt;/a&gt;, take a look at my StackOverflow &lt;a href=&#34;https://stackoverflow.com/story/aoemerson&#34;&gt;developer story&lt;/a&gt;, browse &lt;a href=&#34;https://github.com/aoemerson&#34;&gt;my github&lt;/a&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:yeah&#34;&gt;&lt;a href=&#34;#fn:yeah&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; or try any one of other social links in the header up above.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-makes-me-tech&#34;&gt;What makes me Tech&lt;/h2&gt;
+
+&lt;p&gt;The technology products that excite me the most are those that have the greatest impact on simplifying the lives of the individual. I&amp;rsquo;m less about &lt;strong&gt;staring&lt;/strong&gt; at your smartphone for hours on end and more about it being a trusted companion that&amp;rsquo;s reliably there when you need it but won&amp;rsquo;t betray you when you&amp;rsquo;re not looking.&lt;/p&gt;
+
+&lt;h2 id=&#34;things-i-enjoy&#34;&gt;Things I enjoy&lt;/h2&gt;
+
+&lt;h3 id=&#34;music&#34;&gt;Music&lt;/h3&gt;
+
+&lt;p&gt;Love a festival, love a gig and listen to music of all sorts of genres. Here&amp;rsquo;s a smattering of the kind of music I have been liking lately.&lt;/p&gt;
+
+&lt;iframe src=&#34;https://open.spotify.com/embed/playlist/1SaD4IHGgk5Gat61FPEI0k&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&#34;photography&#34;&gt;Photography&lt;/h3&gt;
+
+&lt;p&gt;I love to get out shooting when I can. Here&amp;rsquo;s a sample of some of the stuff I&amp;rsquo;m most proud of:&lt;/p&gt;
+
+&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 60%; overflow: auto; -webkit-overflow-scrolling:touch;&#34;&gt;&lt;iframe style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; src=&#34;https://flickrembed.com/cms_embed.php?source=flickr&amp;layout=responsive&amp;input=www.flickr.com/photos/andrew_emerson/&amp;sort=0&amp;by=user&amp;theme=tiles&amp;scale=fit&amp;skin=alexis&amp;id=582637fc9cd0f&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;small style=&#34;display: block; text-align: center; margin: 0 auto;&#34;&gt;Created with &lt;a href=&#34;https://flickrembed.com&#34;&gt;flickr embed&lt;/a&gt;.&lt;/small&gt;&lt;!-- We would appreciate if you leave a backlink --&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:yeah&#34;&gt;I haven&amp;rsquo;t done much here lately - having a young family doesn&amp;rsquo;t really help with the side-projects&amp;hellip;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:yeah&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+]]</description>
+        </item>
         
         <item>
             <title>I ❤ Kotlin, inline function edition</title>
@@ -324,42 +367,6 @@
 &lt;div align=&#34;center&#34;&gt;
 &lt;img src=&#34;https://andrewemerson.io/img/pasta.gif&#34;/&gt;
 &lt;/div&gt;
-]]</description>
-        </item>
-        
-        <item>
-            <title>About me</title>
-            <link>https://andrewemerson.io/about/</link>
-            <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
-            
-            <guid>https://andrewemerson.io/about/</guid>
-            <description>![CDATA[
-
-&lt;h2 id=&#34;hi-i-m-andrew&#34;&gt;Hi, I&amp;rsquo;m Andrew&lt;/h2&gt;
-
-&lt;p&gt;I&amp;rsquo;m an Android Developer who has recently &lt;a href=&#34;https://andrewemerson.io/post/starting-my-career-change/&#34;&gt;switched careers&lt;/a&gt; from IT Consulting and I&amp;rsquo;m loving it.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t want to rehash my CV here. For that, you can &lt;a href=&#34;https://andrewemerson.io/CV/Andrew_Emerson-Android_Engineer-CV.pdf&#34;&gt;download it&lt;/a&gt;, take a look at my StackOverflow &lt;a href=&#34;https://stackoverflow.com/story/aoemerson&#34;&gt;developer story&lt;/a&gt;, browse &lt;a href=&#34;https://github.com/aoemerson&#34;&gt;my github&lt;/a&gt; or try any one of other social links in the header up above.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-makes-me-tech&#34;&gt;What makes me Tech&lt;/h2&gt;
-
-&lt;p&gt;The technology products that excite me the most are those that have the greatest impact on simplifying the lives of the individual. I&amp;rsquo;m less about &lt;strong&gt;staring&lt;/strong&gt; at your smartphone for hours on end and more about it being a trusted companion that&amp;rsquo;s reliably there when you need it but won&amp;rsquo;t betray you when you&amp;rsquo;re not looking.&lt;/p&gt;
-
-&lt;p&gt;Maps. I also really like apps that utilise maps. I&amp;rsquo;ve even started having a go at &lt;a href=&#34;https://github.com/aoemerson/crimes-app&#34;&gt;making one&lt;/a&gt; and I intend to blog about some of the interesting challenges raised when making apps with maps.&lt;/p&gt;
-
-&lt;h2 id=&#34;things-i-enjoy&#34;&gt;Things I enjoy&lt;/h2&gt;
-
-&lt;h3 id=&#34;music&#34;&gt;Music&lt;/h3&gt;
-
-&lt;p&gt;Love a festival, love a gig and listen to music of all sorts of genres. Here&amp;rsquo;s a smattering of the kind of music I have been liking lately.&lt;/p&gt;
-
-&lt;iframe src=&#34;https://embed.spotify.com/?uri=spotify:user:drew.emerson:playlist:6dBHgaIq4TQHRsgB0CydM3&amp;theme=white&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;photography&#34;&gt;Photography&lt;/h3&gt;
-
-&lt;p&gt;I love to get out shooting when I can. Here&amp;rsquo;s a sample of some of the stuff I&amp;rsquo;m most proud of:&lt;/p&gt;
-
-&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 60%; overflow: auto; -webkit-overflow-scrolling:touch;&#34;&gt;&lt;iframe style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; src=&#34;https://flickrembed.com/cms_embed.php?source=flickr&amp;layout=responsive&amp;input=www.flickr.com/photos/andrew_emerson/&amp;sort=0&amp;by=user&amp;theme=tiles&amp;scale=fit&amp;skin=alexis&amp;id=582637fc9cd0f&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;small style=&#34;display: block; text-align: center; margin: 0 auto;&#34;&gt;Created with &lt;a href=&#34;https://flickrembed.com&#34;&gt;flickr embed&lt;/a&gt;.&lt;/small&gt;&lt;!-- We would appreciate if you leave a backlink --&gt;&lt;/p&gt;
 ]]</description>
         </item>
         
